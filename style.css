@@ -1,0 +1,124 @@
+/*Navigation Bar*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: pink;
+    text-align: center;
+    padding: 14px 35px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Quicksand, "sans-serif";
+}
+
+/*End of Navigation Bar*/
+
+/* Parallax effect */
+
+.bgimg-1, .bgimg-2, .bgimg-3{
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1{
+  background-image:url("https://picjumbo.com/wp-content/uploads/night-city-lights-abstract-heart-bokeh-trick_free_stock_photos_picjumbo_DSC02980-2210x1474.jpg");
+  min-height: 50vh;
+}
+
+.bgimg-2{
+  background-image: url("https://picjumbo.com/wp-content/uploads/lazy-morning-programming-in-a-bed_free_stock_photos_picjumbo_HNCK4530-2210x1474.jpg");
+  min-height: 325px;
+}
+
+.bgimg-3{
+ background-image: url("https://picjumbo.com/wp-content/uploads/fashion-glasses-on-macbook-pro_free_stock_photos_picjumbo_IMG_6855-2210x1473.jpg"); 
+min-height:90vh;
+}
+
+/* End of Parallax effect */
+
+/* Body */
+
+h1{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 85px;
+  text-align: center;
+  padding: 185px;
+  color: black; 
+}
+
+h2{
+  font-family: 'Nunito', sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  padding: 70px;
+}
+
+h3{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+
+h4{
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+
+
+.icons{
+  text-align: center;
+  
+}
+
+
+#about{
+ height:100%;
+ margin-bottom: 45px;
+}
+
+#portfolio{
+ height:100%; 
+
+ margin-bottom: 25px; 
+}
+
+#contact{
+  height: 100%;
+  color: crimson;
+}
+
+/**/
+
+
+/* Footer */
+footer{
+  position: relative;
+  padding: 5px;
+  text-align: center;
+  background-color: black;
+  color: pink;
+}
+
+font{
+  font-size: 35px;
+}
+
+
+/* Background images: picjumbo.com */
